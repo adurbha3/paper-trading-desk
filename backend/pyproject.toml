@@ -1,0 +1,8 @@
+[project]
+name = "paper-trading-desk-backend"
+version = "0.1.0"
+description = "FastAPI backend for the Paper Trading Desk: market data, order simulation, and AI agent signal feed."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
